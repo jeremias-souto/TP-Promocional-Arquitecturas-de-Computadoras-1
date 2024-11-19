@@ -166,6 +166,7 @@ begin
     MemWrite <= '1' when (I_DataIn(31 downto 26) = "101011") else '0';
     AluSrc <= '1' when (I_DataIn(31 downto 26) = "100011") or (I_DataIn(31 downto 26) = "101011") else '0';
     RegWrite <= '1' when (I_DataIn(31 downto 26) = "000000") or (I_DataIn(31 downto 26) = "100011") else '0';
+    Jump <= '1' when (I_DataIn(31 downto 26) = "000010") else '0';
   
     -- mux que maneja escritura en banco de registros (ultimo mux, despues de la memoria de datos)
     data_w_reg <= ALU_result when MemtoReg = '0' else D_DataIn;
