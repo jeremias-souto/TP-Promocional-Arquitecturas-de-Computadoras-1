@@ -1,7 +1,5 @@
 TRABAJO PRACTICO PROMOCIONAL ARQUITECTURAS DE COMPUTADORAS 1:
 
--INTEGRANTES: Jeremias Souto, Francisco Rodriguez
+-INTEGRANTES: Jeremias Souto, Francisco Manuel Rodriguez Herrero
 
--IDE: www.edaplayground.com/
-
--LINK PROYECTO: www.edaplayground.com/x/ET4h
+-GRUPO: 3
